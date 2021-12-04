@@ -52,7 +52,7 @@ function Load_navaco_Gateway()
 
         class WC_PN_navaco extends WC_Payment_Gateway
         {
-            private $url = "https://fcp.shaparak.ir/nvcservice/Api/v2/";
+            private $url = "http://79.174.161.132:8181/nvcservice/Api/v2/";
             private $merchantCode;
             private $username;
             private $password;
